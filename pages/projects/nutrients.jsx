@@ -10,6 +10,10 @@ import { motion } from 'framer-motion';
 import logo1 from '../../public/images/Graph.png';
 import logo2 from '../../public/images/code.png'
 
+
+
+import {AiOutlineMail} from 'react-icons/ai'
+import {BsDiscord} from 'react-icons/bs'
 import {AiOutlineInstagram} from 'react-icons/ai';
 import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
@@ -27,8 +31,8 @@ export default function Projects(){
     <Head>
     <title>Cleve Clayton</title>
         <meta name="description" content="Hey I'm Cleve and I am a..." />
-        <link rel="icon" href="/favicon.ico" />
-        
+        <link rel="icon" type='image/icon type' href='../cleve.ico'/>
+
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet"/>
@@ -53,21 +57,40 @@ export default function Projects(){
 <button className={styles.git}><Link href='https://github.com/manOnTheMoon2101'><AiFillGithub/></Link></button>
 <button className={styles.whats}><Link href="https://wa.me/%2B27746957353"><AiOutlineWhatsApp/></Link></button>
 
-</div>
+<div className={styles.paste}>
+<CopyToClipboard text="officer_tenpenny69#2369">
+  
+<button className={styles.disc}><BsDiscord/></button>
+  
+</CopyToClipboard>
+
 
 
 
 
 <CopyToClipboard text="clevejohnclayton.2101@gmail.com">
-
-<button className={styles.email}>clevejohnclayton.2101@gmail.com</button>
-
+  
+  <button className={styles.email}><AiOutlineMail/></button>
+  
 </CopyToClipboard>
-<span className={styles.copied}>Copied!</span>
+
+
+
+<h6>Copy & Paste</h6>
+</div>
+
 </div>
 
 
-<hr className={styles.headerL}/>
+
+
+
+
+
+</div>
+
+
+
 
 <div class={styles['grid-container']}>
 

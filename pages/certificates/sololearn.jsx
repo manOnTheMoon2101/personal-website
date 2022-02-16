@@ -7,6 +7,10 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 import { motion } from 'framer-motion';
 
+
+
+import {AiOutlineMail} from 'react-icons/ai'
+import {BsDiscord} from 'react-icons/bs'
 import {SiSololearn} from 'react-icons/si'
 import {SiUdemy} from 'react-icons/si'
 import {AiOutlineInstagram} from 'react-icons/ai';
@@ -28,7 +32,7 @@ export default function Certficates(){
     <Head>
     <title>Cleve Clayton</title>
         <meta name="description" content="Hey I'm Cleve and I am a..." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type='image/icon type' href='../cleve.ico'/>
 
         
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -55,20 +59,40 @@ export default function Certficates(){
 <button className={styles.git}><Link href='https://github.com/manOnTheMoon2101'><AiFillGithub/></Link></button>
 <button className={styles.whats}><Link href="https://wa.me/%2B27746957353"><AiOutlineWhatsApp/></Link></button>
 
-</div>
+<div className={styles.paste}>
+<CopyToClipboard text="officer_tenpenny69#2369">
+  
+<button className={styles.disc}><BsDiscord/></button>
+  
+</CopyToClipboard>
+
+
 
 
 
 <CopyToClipboard text="clevejohnclayton.2101@gmail.com">
-
-<button className={styles.email}>clevejohnclayton.2101@gmail.com</button>
-
+  
+  <button className={styles.email}><AiOutlineMail/></button>
+  
 </CopyToClipboard>
-<span className={styles.copied}>Copied!</span>
+
+
+
+<h6>Copy & Paste</h6>
+</div>
+
 </div>
 
 
-<hr className={styles.headerL}/>
+
+
+
+
+
+</div>
+
+
+
 
 <div class={styles['grid-container']}>
 
@@ -133,7 +157,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card1}>
 
-<Image src={logo21} width='300px' height='300px'/>
+<Image src={logo21} width='400px' height='300px'/>
 <span>Python For Beginners
 
 </span>
@@ -147,7 +171,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card2}>
 
-<Image src={logo22} width='300px' height='300px'/>
+<Image src={logo22} width='400px' height='300px'/>
 <span>
 Intermediate Python
 
