@@ -151,14 +151,6 @@ border-left: 3px solid black;
 
 
 
-.headerL{
-  
-  position: relative;
-
-  border-width: 2px;
-  
-}
-
 
 
 
@@ -187,6 +179,11 @@ border-left: 3px solid black;
   
   background-image: url('../public/images/about.svg');
   background-repeat: no-repeat;
+  
+}
+.aboutN{
+  background-color: white;
+  height: 3.5cm;
   
 }
 
@@ -233,7 +230,7 @@ border-left: 3px solid black;
   font-family: 'Audiowide', cursive;
   border: 7px solid rgba(0, 0, 0, 0.8);
   box-shadow: 5px 10px #fa0000;
-  background-color: white;
+ 
   text-align: left;
   background-image: url('../public/images/small.svg');
   background-repeat: no-repeat;
@@ -275,8 +272,10 @@ top: 5cm;
 .info{
   position: relative;
   font-size: 15px;
+  height: 2cm;
   top: 3cm;
-  color: white;
+  color: rgb(0, 0, 0);
+  background-color: white;
 }
 .grid-item li{
   position: relative;
@@ -292,7 +291,7 @@ top: 5cm;
 }
 .grid-item a{
 
- color: white;
+ color: rgb(0, 0, 0);
 text-decoration: none;
  
   
@@ -301,8 +300,8 @@ text-decoration: none;
 }
 .grid-item a:hover{
 
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
  text-decoration: none;
   
    
@@ -418,7 +417,7 @@ color: rgb(0, 0, 0);
  
   position: relative;
   top: 3cm;
-  height: 16cm;
+  height: 17cm;
 color: rgb(0, 0, 0);
   text-align: center;
   border: rgb(0, 0, 0) 3px  solid;
@@ -427,11 +426,15 @@ color: rgb(0, 0, 0);
 
 .left{
  text-align: center;
+ border-top: 2px solid #4ffa00;
+
 }
 
 
 .right{
   text-align: center;
+  border-top: 2px solid #FF0089;
+ 
 }
 /* This is the Cert Grid*/
 
@@ -549,7 +552,7 @@ text-align: center;
   width:250px;
   height:250px;
   margin:20px auto 0 auto;
-  background:#222;
+  background:rgb(255, 255, 255);
 
   display:flex;
   align-items: center;
@@ -977,6 +980,7 @@ right: 15.9cm;
     font-family: 'Audiowide', cursive;
     border: 7px solid rgba(0, 0, 0, 0.8);
     box-shadow: 5px 10px #00f2fa;
+    background-image: url('../public/images/phone-solo.svg');
     
    
   }
@@ -991,6 +995,7 @@ right: 15.9cm;
     font-family: 'Audiowide', cursive;
     border: 7px solid rgba(0, 0, 0, 0.8);
     box-shadow: 5px 10px #00f2fa;
+    background-image: url('../public/images/phone-ud.svg');
    
    
   }
@@ -998,7 +1003,7 @@ right: 15.9cm;
     position: relative;
     display: grid;
     width: 600px;
-    height: 750px;
+    height: 800px;
     font-size: 20px;
     top: 9cm;
 right: 15.9cm;
@@ -1027,17 +1032,17 @@ right: 15.9cm;
 
 .grid-item a{
 
-  color: white;
+  color: rgb(0, 0, 0);
  text-decoration: none;
- 
+  
    
    
    
  }
  .grid-item a:hover{
  
-   color: rgb(0, 0, 0);
-   background-color: rgb(255, 255, 255);
+   color: rgb(255, 255, 255);
+   background-color: rgb(0, 0, 0);
   text-decoration: none;
    
     

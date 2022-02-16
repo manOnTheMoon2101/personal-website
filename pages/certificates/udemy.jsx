@@ -99,7 +99,7 @@ export default function Certficates(){
 
 <div class={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -110,7 +110,7 @@ export default function Certficates(){
 
 </ul>
 </div>
-
+</div>
 
 <div class={styles['grid-itemMU2']}>
 
@@ -216,7 +216,6 @@ Wireshark: Packet Analysis and Ethical Hacking: Core Skills
 
 
 
-<ul>
 
   
 <p className={styles.info}>
@@ -226,7 +225,7 @@ Created By Moon Designs:)
 
    </p>
    
-</ul>
+
 </div>
 
 

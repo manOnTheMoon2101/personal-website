@@ -100,7 +100,7 @@ export default function Home() {
 
   <div className={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
   <ul>
 
@@ -112,6 +112,7 @@ export default function Home() {
   </ul>
   </div>
 
+  </div>
 
 
 <div class={styles['grid-itemM']}>

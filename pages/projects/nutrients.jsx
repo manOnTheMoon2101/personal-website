@@ -98,7 +98,7 @@ export default function Projects(){
 
 <div class={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -109,7 +109,7 @@ export default function Projects(){
 
 </ul>
 </div>
-
+</div>
 
 <div class={styles['grid-itemMU2']}>
 
@@ -155,7 +155,7 @@ exit={{opacity:0, y:100}}
 
 
 <h1>Matplotlib</h1>
-<p>I used Matplotlib to build myself a graph,which displays the Maximum Nutrients I consumed 6 days a week.<br/>The 
+<p>I used Matplotlib to display a Graph,which indicates the Maximum Nutrients I consumed 4 days a week.<br/>The 
 Green Line Represents the Goal which I want to consume per day.(I couldn't resist two hot dogs Wednesday).
 With this Data I can easily see where I slacked off,and which meals I sould avoid.
 
@@ -177,7 +177,7 @@ With this Data I can easily see where I slacked off,and which meals I sould avoi
 
 
 
-<ul>
+
 
   
 <p className={styles.info}>
@@ -186,8 +186,7 @@ by NextJs
 Created By Moon Designs:)
 
    </p>
-   
-</ul>
+
 </div>
 
 

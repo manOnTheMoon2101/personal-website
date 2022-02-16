@@ -98,7 +98,7 @@ export default function Certficates(){
 
 <div class={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -109,7 +109,7 @@ export default function Certficates(){
 
 </ul>
 </div>
-
+</div>
 
 <div class={styles['grid-itemM']}>
 
@@ -160,7 +160,7 @@ exit={{opacity:0, y:100}}
 
 
 
-<ul>
+
 
    
 <p className={styles.info}>
@@ -170,7 +170,7 @@ Created By Moon Designs:)
 
 </p>
 
-</ul>
+
 </div>
 
 

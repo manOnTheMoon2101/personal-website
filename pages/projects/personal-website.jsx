@@ -101,7 +101,7 @@ export default function Personal(){
 
 <div class={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -112,7 +112,7 @@ export default function Personal(){
 
 </ul>
 </div>
-
+</div>
 
 <div class={styles['grid-itemMU4']}>
 
@@ -139,10 +139,13 @@ exit={{opacity:0, y:100}}
 >
 <h1>NextJs</h1>
 
-<p>To Be Honest,I've Learned React Before Html/Css.
+<p>I never published a normal HTML/CSS page before,my first website was a React Production.
 
-I saw React was Trending among us developers and I just wanted to dive in.
-This is my First Website that I've Build and I'll Keep Updating it for sure.
+With this Approach let to some frustrating times with my build,but in the end it was all worth the trouble.
+
+
+
+
 
 
 </p>
@@ -162,7 +165,7 @@ This is my First Website that I've Build and I'll Keep Updating it for sure.
 <h1>Component Layout</h1>
 
 <p>I love Using the NextJS framework.
-  The Component Layout of React Makes it Easier and more Cleaner to write Web-Sites.
+  The Component Layout of React Makes it Easier and more Cleaner to write Web-Pages.
   With NextJS though,the Routing is Simply AMAZING!.
   All you have to do is create a .jsx file into the pages folder and use the &lt;Link/&gt; tag to refer to the .jsx filename.Done!!!
 </p>
@@ -181,7 +184,7 @@ This is my First Website that I've Build and I'll Keep Updating it for sure.
 <p>
   I use Framer Motion for in and out Transitions.
   Unfortunelly I can't explain the physics behind it,but it's a Production-Ready React Library
-  for animations.Maybe in the Future I'll update my website with some advance Animations,and I'll Defenitly use Framer Motion.
+  for animations.Maybe in the Future I'll update my website with some advance Animations,and I'll Definitely use Framer Motion.
 </p>
 
 
@@ -201,17 +204,16 @@ This is my First Website that I've Build and I'll Keep Updating it for sure.
 
 
 
-<ul>
+
 
   
 <p className={styles.info}>
-   Webiste is powered
+Webiste is powered
 by NextJs
 Created By Moon Designs:)
 
-   </p>
+</p>
    
-</ul>
 </div>
 
 

@@ -95,7 +95,7 @@ export default function Projects(){
 
 <div class={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -106,7 +106,7 @@ export default function Projects(){
 
 </ul>
 </div>
-
+</div>
 
 
 <div class={styles['grid-itemM']}>
@@ -138,7 +138,6 @@ exit={{opacity:0, y:100}}
 
 
 
-<ul>
 
    
   
@@ -149,7 +148,7 @@ Created By Moon Designs:)
 
    </p>
 
-</ul>
+
 </div>
 
 

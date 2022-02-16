@@ -101,6 +101,7 @@ export default function Certficates(){
 <div class={styles['grid-item']}>
 
 
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -111,7 +112,7 @@ export default function Certficates(){
 
 </ul>
 </div>
-
+</div>
 
 <div class={styles['grid-itemMU']}>
 
@@ -157,7 +158,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card1}>
 
-<Image src={logo21} width='400px' height='300px'/>
+<Image src={logo21} width='500px' height='500px'/>
 <span>Python For Beginners
 
 </span>
@@ -171,7 +172,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card2}>
 
-<Image src={logo22} width='400px' height='300px'/>
+<Image src={logo22} width='500px' height='500px'/>
 <span>
 Intermediate Python
 
@@ -197,7 +198,7 @@ Intermediate Python
 
 
 
-<ul>
+
 
 <p className={styles.info}>
    Webiste is powered
@@ -205,7 +206,7 @@ by NextJs
 Created By Moon Designs:)
 
    </p>
-</ul>
+
 </div>
 
 

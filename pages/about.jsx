@@ -107,7 +107,7 @@ export default function About(){
 
 <div class={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -118,7 +118,7 @@ export default function About(){
 
 </ul>
 </div>
-
+</div>
 
 <div class={styles['grid-itemMU3']}>
 
@@ -158,11 +158,11 @@ exit={{opacity:0, y:100}}
 
 <p className={styles.left}>
 
-Since The First Day my parents bought me a Playstation1,I fell in love not only in video games in general,but the Technology behind it.
+Since the First day my parents bought me a Playstation 1,I fell in love not only in video games,but the Technology that works behind behind it.
 
 <br/>
 
-From there on I was always curious of what's happening behind the scenes and my love for computing never stopped With our Rapid Fast Technology growing every single day.
+From there on I was always curious of what's happening behind the scenes and my love for Computing never stopped especially with our Blazing Fast Technology growing every single day.
 
 
 
@@ -177,11 +177,12 @@ exit={{opacity:0, y:100}}
 
 
 >
+
 <p className={styles.right}>
 
-My biggest inspiration is Elon Musk,not only because he's from South Africa,but he inspires me everyday that a kid can achieve he's/her dream oneday by believing in themselves.
+My biggest Inspiration is Elon Musk,not because he's a Billionaire or from South Africa,but he inspires me everyday that a kid can achieve he's/her dreams one-day, by believing in themselves.
 <br/>
-My Goal is to make the world a better place using Technology,yeasterday whe used to pull levels,now we push buttons.
+My Goal is to bring our people together and protect our beautiful world with Technology.
 <br/>
 I'm exited for our FUTURE!
 
@@ -198,7 +199,7 @@ I'm exited for our FUTURE!
 
 
 
-<ul>
+
 
 
       
@@ -209,7 +210,7 @@ Created By Moon Designs:)
 
    </p>
    
-</ul>
+
 </div>
 
 

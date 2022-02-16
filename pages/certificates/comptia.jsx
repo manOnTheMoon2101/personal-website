@@ -93,7 +93,7 @@ export default function Certficates(){
 
 <div class={styles['grid-item']}>
 
-
+<div className={styles.aboutN}>
 
 <ul>
 
@@ -104,7 +104,7 @@ export default function Certficates(){
 
 </ul>
 </div>
-
+</div>
 
 <div class={styles['grid-itemMU2']}>
 
@@ -222,7 +222,7 @@ N+
 
 
 
-<ul>
+
 
 <p className={styles.info}>
    Webiste is powered
@@ -230,7 +230,7 @@ by NextJs
 Created By Moon Designs:)
 
    </p>
-</ul>
+
 </div>
 
 
