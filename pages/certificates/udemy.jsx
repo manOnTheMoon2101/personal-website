@@ -153,7 +153,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card1}>
 
-<Image src={logo20} width='400px' height='300px'/>
+<Image src={logo20} width='500px' height='400px'/>
 <span>Python Network Programming for Network Engineers (Python 3)
 
 </span>
@@ -179,7 +179,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card2}>
 
-<Image src={logo30} width='400px' height='300px'/>
+<Image src={logo30} width='500px' height='400px'/>
 <span>
 Wireshark: Packet Analysis and Ethical Hacking: Core Skills
 
@@ -197,7 +197,7 @@ Wireshark: Packet Analysis and Ethical Hacking: Core Skills
 
 <div className={styles.card3}>
 
-<Image src={logo30} width='400px' height='300px'/>
+<Image src={logo30} width='500px' height='400px'/>
 <span>React - The Complete Guide (incl Hooks, React Router, Redux)
 
   

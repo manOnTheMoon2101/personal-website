@@ -158,7 +158,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card1}>
 
-<Image src={logo21} width='500px' height='500px'/>
+<Image src={logo21} width='500px' height='400px'/>
 <span>Python For Beginners
 
 </span>
@@ -172,7 +172,7 @@ exit={{opacity:0, x:100}}
 
 <div className={styles.card2}>
 
-<Image src={logo22} width='500px' height='500px'/>
+<Image src={logo22} width='500px' height='400px'/>
 <span>
 Intermediate Python
 
