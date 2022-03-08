@@ -1,7 +1,7 @@
 
 
 .head{
- background-color: rgb(255, 255, 255);
+ 
   height: 140px;
 }
 
@@ -159,6 +159,7 @@ border-left: 3px solid black;
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
+  background-color: #fdfdfd;
   
   height: 500px;
 
@@ -396,9 +397,30 @@ color: rgb(0, 0, 0);
 
  
 }
+
+.Homeheader h1{
+  font-family: 'Audiowide', cursive;
+  
+
+
+
+ 
+}
+
+.Homeheader p{
+  font-family: 'Puritan', sans-serif;
+  
+  
+
+
+
+ 
+}
 .change{
+  font-family: 'Puritan', sans-serif;
   animation: color-change 1s infinite;
   text-shadow: rgb(0, 0, 0) 2px 2px;
+  
 }
 
 
@@ -417,17 +439,57 @@ color: rgb(0, 0, 0);
  
   position: relative;
   top: 3cm;
-  height: 17cm;
-color: rgb(0, 0, 0);
+  height: 16cm;
+  color: rgb(0, 0, 0);
   text-align: center;
   border: rgb(0, 0, 0) 3px  solid;
   background-color: white;
+ 
+}
+.About p{
+  font-family: 'Puritan', sans-serif;
+ 
+ 
+}
+.qoute{
+  font-weight: bold;
+  
+}
+.play{
+  font-size: 40px;
+  color: #000000;
+  
+}
+.cleveH{
+  font-family: 'Audiowide', cursive;
+}
+.africa{
+  font-size: 30px;
+  color: green;
+}
+
+.python a{
+
+ text-decoration: none;
+color: rgb(38, 0, 255);
+ }
+
+ .python a:hover{
+
+  text-decoration: none;
+ color: rgb(229, 255, 0);
+  }
+
+
+.plant{
+  color: #4ffa00;
+  font-size: 30px;
 }
 
 .left{
- text-align: center;
- border-top: 2px solid #4ffa00;
+ text-align: left;
 
+ 
 }
 
 
@@ -542,6 +604,10 @@ color: rgb(0, 0, 0);
   background-color: white;
 
 }
+.contentN p{
+  font-family: 'Puritan', sans-serif;
+
+}
 .imgC{
 text-align: center;
 }
@@ -624,6 +690,11 @@ color: rgb(0, 0, 0);
   background-color: white;
 }
 
+.nextH p{
+  font-family: 'Puritan', sans-serif;
+}
+
+
 .responsive{
   position: relative;
   top: 1cm;
@@ -633,6 +704,10 @@ color: rgb(0, 0, 0);
   text-align: center;
   border: rgb(0, 0, 0) 3px  solid;
   background-color: white;
+}
+.responsive p{
+  font-family: 'Puritan', sans-serif;
+
 }
 
 .framer{
@@ -646,6 +721,21 @@ color: rgb(0, 0, 0);
   background-color: white;
 }
 
+.framer p{
+  font-family: 'Puritan', sans-serif;
+ 
+}
+
+
+.nextMoon{
+  position: relative;
+
+
+color: rgb(0, 0, 0);
+  text-align: center;
+  border: rgb(0, 0, 0) 3px  solid;
+  background-color: white;
+}
 
 
 

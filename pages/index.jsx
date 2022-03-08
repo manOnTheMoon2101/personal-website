@@ -1,19 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
+
 import styles from '../styles/Home.module.css';
 import { motion } from 'framer-motion';
 import { AnimatePresence } from 'framer-motion';
 import 'bootstrap/dist/css/bootstrap.css';
 
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 
 import { useState } from 'react';
 
-import {AiOutlineMail} from 'react-icons/ai'
-import {BsDiscord} from 'react-icons/bs'
-import {AiOutlineInstagram} from 'react-icons/ai';
-import {AiFillGithub} from 'react-icons/ai'
-import {AiOutlineWhatsApp} from 'react-icons/ai'
+
 import Link from 'next/link';
 
 export default function Home() {
@@ -30,66 +24,9 @@ export default function Home() {
  
   return (
     <div className={styles.home}>
-      <Head>
-        <title>Cleve Clayton</title>
-        <meta name="description" content="Hey I'm Cleve and I am a..." />
-        <link rel="icon" type='image/icon type' href='cleve.ico'/>
-
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet"/>
+      
 
 
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"/>
-
-        
-      </Head>
-
-
-
-<div className={styles.head}>
-
-<h1 className={styles.header}>Cleve Clayton</h1>
-
-<div className={styles.buttons}>
-
-<button className={styles.insta}><Link href='https://www.instagram.com/man_on_the_moon2101/' target="_blank"><AiOutlineInstagram/></Link></button>
-<button className={styles.git}><Link href='https://github.com/manOnTheMoon2101'><AiFillGithub/></Link></button>
-<button className={styles.whats}><Link href="https://wa.me/%2B27746957353"><AiOutlineWhatsApp/></Link></button>
-
-<div className={styles.paste}>
-<CopyToClipboard text="officer_tenpenny69#2369">
-  
-<button className={styles.disc}><BsDiscord/></button>
-  
-</CopyToClipboard>
-
-
-
-
-
-<CopyToClipboard text="clevejohnclayton.2101@gmail.com">
-  
-  <button className={styles.email}><AiOutlineMail/></button>
-  
-</CopyToClipboard>
-
-
-
-<h6>Copy & Paste</h6>
-</div>
-
-</div>
-
-
-
-
-
-
-
-</div>
 
 
 
@@ -128,25 +65,19 @@ export default function Home() {
 <motion.div className={styles.Homeheader}
 
     initial={{opacity:0, x:-100}}
-    animate={{opacity:1, x:0,transition:{delay:.9}}}
+    animate={{opacity:1, x:0,transition:{delay:.1}}}
     
     exit={{opacity:0, x:100}}
 
 >
-<motion.div
-initial={{opacity:0, x:100}}
-animate={{opacity:1, x:0,transition:{delay:1.5}}}
-
-exit={{opacity:0, x:100}}
-
->
 
 
-<h1>Hey There!</h1>
-<p>Welcome to my Personal Website.<br/>Sorry For All The <p className={styles.change}>'Wiring'</p>Please Do Enjoy The Journey!</p>
 
 
-</motion.div>
+<h1>Heyyy There!</h1>
+<p>Welcome to my Personal Website.<br/>Sorry For All The <p className={styles.change}>'Wiring'</p>Please Enjoy The Journey!</p>
+
+
 
 
 </motion.div>
@@ -170,7 +101,7 @@ exit={{opacity:0, x:100}}
     
    <p className={styles.info}>
    Webiste is powered
-by NextJs
+by NextJS
 Created By Moon Designs:)
 
    </p>

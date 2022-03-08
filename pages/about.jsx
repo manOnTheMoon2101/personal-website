@@ -1,17 +1,13 @@
-import Head from 'next/head'
-import Image from 'next/image'
+
 import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.css';
 
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 
+import {GiSouthAfrica} from 'react-icons/gi';
+import {SiPlaystation2} from 'react-icons/si';
+import {FaPython} from 'react-icons/fa';
+import {GiPlantSeed} from 'react-icons/gi';
 
-import {AiOutlineMail} from 'react-icons/ai'
-import {BsDiscord} from 'react-icons/bs'
-import {GiSouthAfrica} from 'react-icons/gi'
-import {AiOutlineInstagram} from 'react-icons/ai';
-import {AiFillGithub} from 'react-icons/ai'
-import {AiOutlineWhatsApp} from 'react-icons/ai'
 import Link from 'next/link';
 
 
@@ -37,66 +33,9 @@ export default function About(){
 
 
     return <div>
-    <Head>
-    <title>Cleve Clayton</title>
-        <meta name="description" content="Hey I'm Cleve and I am a..." />
-        <link rel="icon" type='image/icon type' href='cleve.ico'/>
-        
-      <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Allerta&display=swap" rel="stylesheet"/>
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet"/>
-
-      
-    </Head>
-
-
-
-<div className={styles.head}>
-
-<h1 className={styles.header}>Cleve Clayton</h1>
-
-<div className={styles.buttons}>
-
-<button className={styles.insta}><Link href='https://www.instagram.com/man_on_the_moon2101/' target="_blank"><AiOutlineInstagram/></Link></button>
-<button className={styles.git}><Link href='https://github.com/manOnTheMoon2101'><AiFillGithub/></Link></button>
-<button className={styles.whats}><Link href="https://wa.me/%2B27746957353"><AiOutlineWhatsApp/></Link></button>
-
-<div className={styles.paste}>
-<CopyToClipboard text="officer_tenpenny69#2369">
   
-<button className={styles.disc}><BsDiscord/></button>
-  
-</CopyToClipboard>
 
 
-
-
-
-<CopyToClipboard text="clevejohnclayton.2101@gmail.com">
-  
-  <button className={styles.email}><AiOutlineMail/></button>
-  
-</CopyToClipboard>
-
-
-
-<h6>Copy & Paste</h6>
-</div>
-
-</div>
-
-
-
-
-
-
-
-</div>
 
 
 
@@ -126,27 +65,56 @@ export default function About(){
 <motion.div className={styles.About}
 
 initial={{opacity:0, x:100}}
-    animate={{opacity:1, x:0,transition:{delay:.9}}}
+    animate={{opacity:1, x:0,transition:{delay:.1}}}
     
     exit={{opacity:0, y:100}}
 
 
 
 >
+
 <motion.div
 initial={{opacity:0, x:-100}}
-animate={{opacity:1, x:0,transition:{delay:1.5}}}
+animate={{opacity:1, x:0,transition:{delay:.1}}}
 
 exit={{opacity:0, y:100}}>
 <h1>About Me</h1>
-<p>I'm a 19 year old self taught Programmer<br/> Born and Raised In <GiSouthAfrica/>.
+
+<p>My name's <span className={styles.cleveH}>Cleve Clayton</span><br/>Born and Raised In <span className={styles.africa}><GiSouthAfrica/></span></p>
+</motion.div>
+
+
+<div className={styles.left}>
+  
+  <p>
+ <span className={styles.qoute}>"Name one genius that aint crazy."</span>
+<br/>
+A simple line from one of my favourite rappers/producers of all time,Ye West.
+<br/>If you think about it,sounds pretty accurate right?
+  </p>
+  
+<p>
+From a young age playing on my <span className={styles.play}><SiPlaystation2/></span> that my parents bought me,to felling in love with Programming since installing <span className={styles.python}><a href='https://www.python.org/'><FaPython/></a></span> on my local Machine,I knew Technology was in my blood.
+</p>
+  
+<p>
+In a world where rascim and sexism is a huge problem,my main goal is to unite our world so that our children and their children can live in a world in peace.
+<span className={styles.plant}><GiPlantSeed/></span>
+</p>
+  </div>
+
+<p>
+
+
 
 </p>
-</motion.div>
+
+
+
 
 <motion.div
 initial={{opacity:0, x:100}}
-animate={{opacity:1, x:0,transition:{delay:2.1}}}
+animate={{opacity:1, x:0,transition:{delay:.1}}}
 
 exit={{opacity:0, y:100}}
 
@@ -156,38 +124,21 @@ exit={{opacity:0, y:100}}
 
 
 
-<p className={styles.left}>
-
-Since the First day my parents bought me a Playstation 1,I fell in love not only in video games,but the Technology that works behind behind it.
-
-<br/>
-
-From there on I was always curious of what's happening behind the scenes and my love for Computing never stopped especially with our Blazing Fast Technology growing every single day.
-
-
-
-</p>
 </motion.div>
 
 <motion.div
 initial={{opacity:0, x:-100}}
-animate={{opacity:1, x:0,transition:{delay:2.7}}}
+animate={{opacity:1, x:0,transition:{delay:.1}}}
 
 exit={{opacity:0, y:100}}
 
 
 >
 
-<p className={styles.right}>
-
-My biggest Inspiration is Elon Musk,not because he's a Billionaire or from South Africa,but he inspires me everyday that a kid can achieve he's/her dreams one-day, by believing in themselves.
-<br/>
-My Goal is to bring our people together and protect our beautiful world with Technology.
-<br/>
-I'm exited for our FUTURE!
-
-</p>
 </motion.div>
+
+
+
 </motion.div>
 
 </div>
@@ -205,7 +156,7 @@ I'm exited for our FUTURE!
       
 <p className={styles.info}>
    Webiste is powered
-by NextJs
+by NextJS
 Created By Moon Designs:)
 
    </p>
