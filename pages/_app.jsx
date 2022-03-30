@@ -4,25 +4,43 @@ import styles from '../styles/Home.module.css';
 import Link from 'next/link'
 
 import {CopyToClipboard} from 'react-copy-to-clipboard';
-
+import { AnimatePresence,motion } from 'framer-motion';
 import {AiOutlineMail} from 'react-icons/ai'
 import {BsDiscord} from 'react-icons/bs'
 import {AiOutlineInstagram} from 'react-icons/ai';
 import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
+import {AiOutlineDownload} from 'react-icons/ai';
 
-function MyApp({ Component, pageProps }) {
+
+
+
+
+function MyApp({ Component, pageProps,router }) {
   
   
 
 
 
-  return <>
+  return <AnimatePresence><motion.div
+  key={router.route}
+  initial="pageStart"
+  animate="pageAnimate"
+
+
+
+
+      
+
+    
+
+  
+  >
   
   <Head>
         <title>Cleve Clayton</title>
         <meta name="description" content="Hey I'm Cleve and I am a..." />
-        <link rel="icon" type='image/icon type' href='favicon.ico'/>
+        <link rel="icon" type='image/icon type' href='favicon-32x32.png'/>
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -38,20 +56,25 @@ function MyApp({ Component, pageProps }) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Puritan&display=swap" rel="stylesheet"/>
 
-        
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"></link>
+
+
       </Head>
   
       <div className={styles.head}>
 
-<h1 className={styles.header}>Cleve Clayton</h1>
 
-<div className={styles.buttons}>
 
-<button className={styles.insta}><Link href='https://www.instagram.com/man_on_the_moon2101/'><AiOutlineInstagram/></Link></button>
-<button className={styles.git}><Link href='https://github.com/manOnTheMoon2101'><AiFillGithub/></Link></button>
-<button className={styles.whats}><Link href="https://wa.me/%2B27746957353"><AiOutlineWhatsApp/></Link></button>
+<div className={styles.socials}>
 
-<div className={styles.paste}>
+<a  className={styles.insta} href='https://www.instagram.com/man_on_the_moon2101/' title='Instagram' target="_blank"><AiOutlineInstagram/></a>
+<a  className={styles.git} href='https://github.com/manOnTheMoon2101' title='GitHub' target="_blank"><AiFillGithub/></a>
+<a className={styles.whats} href="https://wa.me/%2B27746957353" title='WhatsApp' target="_blank"><AiOutlineWhatsApp/></a>
+
+<span className={styles.copy}>
+
 <CopyToClipboard text="officer_tenpenny69#2369">
   
 <button className={styles.disc}><BsDiscord/></button>
@@ -71,9 +94,13 @@ function MyApp({ Component, pageProps }) {
 
 
 <h6>Copy & Paste</h6>
-</div>
+</span>
+
+
 
 </div>
+
+
 
 
 
@@ -89,9 +116,36 @@ function MyApp({ Component, pageProps }) {
   
   <Component {...pageProps} />
 
+<footer>
+
+<div className={styles.footer}>
+
+<div className={styles.downloadLink}>
+
+<a href="/images/cleve.pdf" download="Cleve-CV.pdf">
+  <span>My<br/> Resume</span><AiOutlineDownload/>
+</a>
+
+</div>
+
+</div>
+
+<div className={styles.boX}>
+  <p>This website is powered my NextJS<br/>
+
+  <a href='https://moondesigns2022.co.za/' target="_blank">Created by Moon Designs</a></p>
+</div>
 
 
-</>
+<div className={styles.year}>
+  <p>@2022</p>
+</div>
+
+
+</footer>
+
+</motion.div>
+</AnimatePresence>
   
 }
 

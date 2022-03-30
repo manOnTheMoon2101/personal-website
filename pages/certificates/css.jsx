@@ -1,11 +1,16 @@
-import styles from '../styles/Home.module.css';
-import { motion } from 'framer-motion';
+import styles from '../../styles/Home.module.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
 
-
+import { useState } from 'react';
 import Link from 'next/link';
+
+
+
+import logo6 from '../../public/images/css.jpg'
+import Image from 'next/image';
+
 
 import {FaPython} from 'react-icons/fa';
 import {FaReact} from 'react-icons/fa';
@@ -14,13 +19,14 @@ import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3} from 'react-icons/di';
 
 
-export default function Certificates(){
+
+export default function Css(){
 
     return <>
     
     
       
-<div className={styles.main3}>
+  <div className={styles.main3}>
 
 
 
@@ -36,58 +42,31 @@ export default function Certificates(){
 
 </ul>
 
-
 </div>
 
-<motion.div className={styles.navL}
-
-initial='start'
-animate='animate'
-exit='exit'
-
-variants={{
-  start:{
-    scale:0,
-    opacity:0,
-    
-    
-    
-  },
-
-  animate:{
-    scale:1,
-    opacity:1,
- 
-    transition:{
-      duration:1
-    }
-  
-  },
-
-  exit:{
-    scale:0,
-    
-    transition:{
-      duration:.4
-    }
-    
-  }
-
-}}
-
-
-
->
+<div className={styles.navL}>
     <ul>
-        <li><Link href='/certificates/python'><a>Python<FaPython/></a></Link></li>
+        <li ><Link href='/certificates/python'><a>Python<FaPython/></a></Link></li>
         <li><Link href='/certificates/react'><a>React<FaReact/></a></Link></li>
         <li><Link href='/certificates/comptia'><a>CompTIA</a></Link></li>
         <li><Link href='/certificates/javascript'><a>JavaScript<SiJavascript/></a></Link></li>
         <li><Link href='/certificates/html'><a>HTML<AiFillHtml5/></a></Link></li>
-        <li><Link href='/certificates/css'><a>CSS<DiCss3/></a></Link></li>
+        <li  className={styles.active}><Link href='/certificates/css'><a>CSS<DiCss3/></a></Link></li>
     </ul>
-</motion.div>
+</div>
 
+<div class={styles.container}>
+<div className={styles.imageM}>
+    
+    <Link href='/projects'>
+        <Image src={logo6}  width='500px' height='400px' alt='Css'/>
+        </Link>
+        </div>
+  
+      
+  
+
+    </div>
 
 
 

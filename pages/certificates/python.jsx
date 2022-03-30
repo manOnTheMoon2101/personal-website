@@ -7,7 +7,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Link from 'next/link';
 
 
-import logo12 from '../../public/images/blank.png';
+import logo1 from '../../public/images/advance.png';
+import logo2 from '../../public/images/network.jpg';
+import logo3 from '../../public/images/beginner.png';
 
 import Image from 'next/image';
 
@@ -20,7 +22,7 @@ import {DiCss3} from 'react-icons/di';
 
 
 
-export default function Comptia(){
+export default function Python(){
 
     return <>
     
@@ -42,14 +44,16 @@ export default function Comptia(){
 
 </ul>
 
+
+
 </div>
 
 <div className={styles.navL}>
     <ul>
-    <li><Link href='/certificates/python'><a>Python<FaPython/></a></Link></li>
+    <li className={styles.active}><Link href='/certificates/python'><a>Python<FaPython/></a></Link></li>
         <li><Link href='/certificates/react'><a>React<FaReact/></a></Link></li>
-        <li  className={styles.active}><Link href='/certificates/comptia'><a>CompTIA</a></Link></li>
-        <li ><Link href='/certificates/javascript'><a>JavaScript<SiJavascript/></a></Link></li>
+        <li><Link href='/certificates/comptia'><a>CompTIA</a></Link></li>
+        <li><Link href='/certificates/javascript'><a>JavaScript<SiJavascript/></a></Link></li>
         <li><Link href='/certificates/html'><a>HTML<AiFillHtml5/></a></Link></li>
         <li><Link href='/certificates/css'><a>CSS<DiCss3/></a></Link></li>
     </ul>
@@ -59,29 +63,20 @@ export default function Comptia(){
 <div className={styles.imageM}>
     
     <Link href='/projects'>
-        <Image src={logo12}  width='500px' height='400px' alt='blank'/>
+        <Image src={logo1}  width='500px' height='400px' alt='Intermediate Python'/>
         </Link>
-        <p>A+
-</p>
-<span>Still Studying...</span>
         </div>
   
         <div className={styles.imageM}>
     <Link href='/projects'>
-        <Image src={logo12}  width='500px' height='400px' alt='blank'/>
+        <Image src={logo2}  width='500px' height='400px' alt='Python Networking'/>
         </Link>
-        <p>N+
-</p>
-<span>Still Studying...</span>
         </div>
   
         <div className={styles.imageM}>
     <Link href='/projects'>
-        <Image src={logo12}  width='500px' height='400px' alt='blank'/>
+        <Image src={logo3}  width='500px' height='400px' alt='Python for Beginners'/>
         </Link>
-        <p>Cloud+
-</p>
-<span>Still Studying...</span>
   
         </div>
 

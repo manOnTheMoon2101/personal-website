@@ -1,168 +1,95 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css';
+
 import 'bootstrap/dist/css/bootstrap.css';
 
-import {CopyToClipboard} from 'react-copy-to-clipboard';
 
-import { motion } from 'framer-motion';
-
-import logo4 from '../../public/images/folders.png'
-import logo7 from '../../public/images/framer.png'
-
-
-
-import {AiOutlineMail} from 'react-icons/ai'
-import {BsDiscord} from 'react-icons/bs'
-import {AiOutlineInstagram} from 'react-icons/ai';
-import {AiFillGithub} from 'react-icons/ai'
-import {AiOutlineWhatsApp} from 'react-icons/ai'
 import Link from 'next/link';
+import Image from 'next/image';
+import {FaPython} from 'react-icons/fa';
 
-
-
+import logo9 from '../../public/images/code.png'
+import logo10 from '../../public/images/code2.png'
 
 
 
 
 export default function Personal(){
 
-
-    return <div>
+    return <>
     
+    
+      
+<div className={styles.main2}>
 
 
 
 
-
-
-
-
-<div class={styles['grid-container']}>
-
-
-
-<div class={styles['grid-item']}>
-
-<div className={styles.aboutN}>
+<div className={styles.navbar}>
 
 <ul>
 
-    <li><Link href='/'>Home</Link></li>
-    <li><Link href='/about'>About Me</Link></li>
-    <li><Link href='/certificates'>Online Certficates</Link></li>
-    <li><Link href='/projects'>Projects</Link></li>
+<li><Link href='/'>Home🏠</Link></li>
+
+<li className={styles.active}><Link href='/projects'>Projects📁</Link></li>
+<li><Link href='/certificates'>Online Certificates📃</Link></li>
 
 </ul>
-</div>
-</div>
-
-<div class={styles['grid-itemMU4']}>
-
-<div className={styles.navC}>
-
-<ul>
-  <li><Link href='/projects/nutrients'>Nutrients Graph(Python)</Link></li>
-  <li><Link href='/projects/personal-website'>Personal Website(React/NextJS)</Link></li>
- 
-</ul>
-
 
 
 </div>
 
-<motion.div className={styles.nextH}
 
-initial={{opacity:0, x:-100}}
-animate={{opacity:1, x:0,transition:{delay:0.1}}}
-
-exit={{opacity:0, y:100}}
-
-
->
-<h1>NextJs</h1>
-
-<p>I never published a normal HTML/CSS page before,my first website was a React Production.
-
-With this Approach let to some frustrating times with my build,but in the end it was all worth the trouble.
+<div className={styles.navL}>
+    <ul>
+        <li className={styles.active}><Link href='/projects/personal-website'><a>Personal-Website(NextJS)</a></Link></li>
 
 
 
-
-
-
-</p>
-
-<div className={styles.container}>
-		<span className={styles['react-logo']}>
-			<span className={styles.nucleo}></span>
-		</span>
-   
+        
+        <li><Link href='/projects/nutrient-graph'><a>Nutrients Graph(Python)<FaPython/></a></Link></li>
+    </ul>
 </div>
 
 
-</motion.div>
+<div className={styles.graphImage}>
 
-<div className={styles.responsive}>
+<div class={styles.container2}>
 
-<h1>Component Layout</h1>
+        <Image src={logo9}  width='500px' height='400px' alt='JSX Code'/>
 
-<p>I love Using the NextJS framework.
-  The Component Layout of React Makes it Easier and more Cleaner to write Web-Pages.
-  With NextJS though,the Routing is Simply AMAZING!.
-  All you have to do is create a .jsx file into the pages folder and use the &lt;Link/&gt; tag to refer to the .jsx filename.Done!!!
-</p>
-
-
-
-<Image src={logo4}/>
-
+        </div>
 
 </div>
 
-<div className={styles.framer}>
 
-<h1>Framer Motion</h1>
-
+<div className={styles.personalPara}>
 <p>
-  I use Framer Motion for in and out Transitions.
-  Unfortunelly I can't explain the physics behind it,but it's a Production-Ready React Library
-  for animations.Maybe in the Future I'll update my website with some advance Animations,and I'll Definitely use Framer Motion.
+I've build by website using the NextJS Framework.
+I feel comfortable using React to make websites because of it's huge community and structured work layout.
+I didn't go crazy on this website,but in the future I might add new animations to it,especially from Framer Motion.
 </p>
 
 
 
-<Image src={logo7}/>
-
-
 </div>
 
+<div className={styles.graphImage2}>
+
+<div class={styles.container2}>
+
+        <Image src={logo10}  width='500px' height='400px' alt='Home Screen'/>
+
+        </div>
 
 </div>
-
 </div>
-
-
-<div class={styles['grid-item32']}>
-
-
-
-
-
-  
-<p className={styles.info}>
-Webiste is powered
-by NextJS
-Created By Moon Designs:)
-
-</p>
-   
-</div>
-
-
-
-
-  </div>
-
     
+    
+    
+    
+    
+    
+    
+    
+    </>
 }
