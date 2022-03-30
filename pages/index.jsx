@@ -8,7 +8,7 @@ import logo1 from '../public/images/advance.png';
 import logo2 from '../public/images/network.jpg';
 
 
-import logo4 from '../public/images/Graph.png';
+import logo4 from '../public/images/graph.png';
 import logo5 from '../public/images/code.png';
 import logo6 from '../public/images/code2.png';
 
