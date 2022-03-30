@@ -520,6 +520,13 @@ font-size: 20px;
     text-decoration: underline;
    
   }
+  .certs h1{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 50px;
+    color: white;
+    text-decoration: underline;
+    
+  }
   .main2{
     background-image: url(../public/images/back.svg);
     height:1800px;
