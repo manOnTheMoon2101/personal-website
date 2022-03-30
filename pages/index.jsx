@@ -76,7 +76,7 @@ variants={{
   animate:{
     scale:1,
     opacity:1,
-    rotate:'360deg',
+    
     transition:{
       duration:1
     }

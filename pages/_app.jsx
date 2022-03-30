@@ -122,9 +122,6 @@ function MyApp({ Component, pageProps,router }) {
 
 <div className={styles.downloadLink}>
 
-<a href="/images/cleve.pdf" download="Cleve-CV.pdf">
-  <span>My<br/> Resume</span><AiOutlineDownload/>
-</a>
 
 </div>
 
