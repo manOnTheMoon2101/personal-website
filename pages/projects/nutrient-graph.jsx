@@ -1,10 +1,9 @@
 import styles from '../../styles/Home.module.css';
-import { motion } from 'framer-motion';
-import { AnimatePresence } from 'framer-motion';
+
 import 'bootstrap/dist/css/bootstrap.css';
 
 import Image from 'next/image';
-import { useState } from 'react';
+
 import Link from 'next/link';
 
 import {FaPython} from 'react-icons/fa';
