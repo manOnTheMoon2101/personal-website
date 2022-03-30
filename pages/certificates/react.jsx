@@ -59,9 +59,9 @@ export default function React(){
 <div class={styles.container}>
 <div className={styles.imageM}>
     
-    <Link href='/projects'>
+ 
         <Image src={logo12}  width='500px' height='400px' alt='Full React'/>
-        </Link>
+      
         <p>React - The Complete Guide (incl Hooks, React Router, Redux)
 </p>
 <span>Still Studying...</span>

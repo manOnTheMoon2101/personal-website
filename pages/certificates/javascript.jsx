@@ -58,9 +58,9 @@ export default function Javascript(){
 <div class={styles.container}>
 <div className={styles.imageM}>
     
-    <Link href='/projects'>
+  
         <Image src={logo11}  width='500px' height='400px' alt='Javascript'/>
-        </Link>
+  
         </div>
   
       

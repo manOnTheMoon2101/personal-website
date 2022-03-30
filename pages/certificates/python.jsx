@@ -62,21 +62,22 @@ export default function Python(){
 <div class={styles.container}>
 <div className={styles.imageM}>
     
-    <Link href='/projects'>
+    
         <Image src={logo1}  width='500px' height='400px' alt='Intermediate Python'/>
-        </Link>
+        
         </div>
   
         <div className={styles.imageM}>
-    <Link href='/projects'>
+    
         <Image src={logo2}  width='500px' height='400px' alt='Python Networking'/>
-        </Link>
+        
         </div>
   
         <div className={styles.imageM}>
-    <Link href='/projects'>
+
+
         <Image src={logo3}  width='500px' height='400px' alt='Python for Beginners'/>
-        </Link>
+        
   
         </div>
 

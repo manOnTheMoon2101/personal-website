@@ -58,10 +58,9 @@ export default function Html(){
 
 <div class={styles.container}>
 <div className={styles.imageM}>
-    
-    <Link href='/projects'>
+
         <Image src={logo5}  width='500px' height='400px' alt='Html'/>
-        </Link>
+   
         </div>
   
       

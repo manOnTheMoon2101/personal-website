@@ -58,27 +58,27 @@ export default function Comptia(){
 <div class={styles.container}>
 <div className={styles.imageM}>
     
-    <Link href='/projects'>
+
         <Image src={logo12}  width='500px' height='400px' alt='blank'/>
-        </Link>
+      
         <p>A+
 </p>
 <span>Still Studying...</span>
         </div>
   
         <div className={styles.imageM}>
-    <Link href='/projects'>
+
         <Image src={logo12}  width='500px' height='400px' alt='blank'/>
-        </Link>
+      
         <p>N+
 </p>
 <span>Still Studying...</span>
         </div>
   
         <div className={styles.imageM}>
-    <Link href='/projects'>
+
         <Image src={logo12}  width='500px' height='400px' alt='blank'/>
-        </Link>
+ 
         <p>Cloud+
 </p>
 <span>Still Studying...</span>

@@ -72,9 +72,9 @@ The Green Line Represents the Goal which I want to consume per day.(I couldn't r
 <div className={styles.graphImage2}>
 
 <div class={styles.container2}>
-<Link href='/projects'>
+
         <Image src={logo9}  width='500px' height='400px' alt='Python Code'/>
-        </Link>
+   
         </div>
 
 </div>

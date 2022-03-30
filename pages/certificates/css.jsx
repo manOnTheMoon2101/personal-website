@@ -57,10 +57,9 @@ export default function Css(){
 
 <div class={styles.container}>
 <div className={styles.imageM}>
-    
-    <Link href='/projects'>
+
         <Image src={logo6}  width='500px' height='400px' alt='Css'/>
-        </Link>
+    
         </div>
   
       

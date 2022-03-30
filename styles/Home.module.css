@@ -92,6 +92,8 @@
   background-image: url(../public/images/back2.svg);
   height:2800px;
   border-radius: 2cm 0cm 2cm 0cm;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -160,7 +162,7 @@
 
 
   height: 1000px;
-  border-top: 9px white solid;
+  border-top: 9px rgb(255, 255, 255) solid;
   border-radius: 2cm 0 0 0;
 }
 
@@ -275,6 +277,8 @@
   background-image: url(../public/images/back.svg);
   height:1500px;
   border-radius: 2cm 0cm 2cm 0cm;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 .active{
   text-decoration: underline rgb(255, 0, 0);
@@ -310,6 +314,8 @@
   background-image: url(../public/images/back.svg);
   height:1500px;
   border-radius: 2cm 0cm 2cm 0cm;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -450,7 +456,8 @@ font-size: 20px;
     color: white;
     font-weight: bold;
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
+
   
     font-family: 'Annie Use Your Telescope', cursive;
   
@@ -463,7 +470,7 @@ font-size: 20px;
     font-family: 'Annie Use Your Telescope', cursive;
     top: 200px;
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     margin-left: 10px;
     margin-right: 10px;
   
@@ -478,27 +485,49 @@ font-size: 20px;
   }
   .bodyAbout h1{
     font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     text-decoration: underline;
     text-align: center;
   
   }
-
+  .bodyAbout p{
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+  
+  
+  }
+  
   .slideShow{
     height: 1000px;
     
   }
-  
+  .projects{
+    text-align: center;
+    height: 800px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
   .projects h1{
 
     font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 60px;
+    font-size: 50px;
     color: white;
     text-decoration: underline;
    
   }
-
+  .main2{
+    background-image: url(../public/images/back.svg);
+    height:1800px;
+    border-radius: 2cm 0cm 2cm 0cm;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  
 }
 
 
