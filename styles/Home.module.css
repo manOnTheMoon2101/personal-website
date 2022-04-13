@@ -238,7 +238,7 @@
 .container {
 
   position: relative;
-  top: 5cm;
+  top: 8cm;
  
 
   
@@ -274,7 +274,7 @@
 
 /*Certificates*/
 .main3{
-  background-image: url(../public/images/back.svg);
+  background-image: url(../public/images/back2.svg);
   height:1500px;
   border-radius: 2cm 0cm 2cm 0cm;
   border-top: 2px solid black;
@@ -286,33 +286,83 @@
 
 .navL{
   text-align: center;
+  position: relative;
+  top: 5cm;
+
+
 }
 
-.navL a{
-  text-decoration: none;
-  color: white;
+.navL2{
+  text-align: center;
+  position: relative;
+  top: 5cm;
+
+
+
 }
+
 
 .navL li{
-  list-style: none;
 
 
-  color: white;
-  font-weight: bold;
+ list-style: none;
   padding: 30px;
-  font-size: 30px;
 
-
-  font-family: 'Annie Use Your Telescope', cursive;
 }
 
+.navL2 li{
+
+
+  list-style: none;
+   padding: 30px;
+ 
+ }
+.proA{
+  
+
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Annie Use Your Telescope', cursive;
+
+}
+.navL a{
+  position: relative;
+ padding: 40px;
+
+
+ 
+
+
+
+}
+
+.navL a:hover{
+  cursor: pointer;
+
+ }
+
+
+
+ .pythonP{
+   position: relative;
+   top: 12cm;
+
+ }
+ .pythonP p{
+text-align: center;
+color: white;
+font-size: 20px;
+
+}
 
 
 /*Graph*/
 
 .main2{
-  background-image: url(../public/images/back.svg);
-  height:1500px;
+  background-image: url(../public/images/back2.svg);
+  height:1600px;
   border-radius: 2cm 0cm 2cm 0cm;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -322,7 +372,7 @@
 
 .graphPara{
   position: relative;
-  top: 20px;
+  top: 210px;
   text-align: center;
   color: white;
 
@@ -351,6 +401,8 @@ text-align: left;
 }
 
 .graphImage{
+  position: relative;
+  top: 5cm;
   float: left;
   object-fit:cover;
   margin-left: 20px;
@@ -363,7 +415,7 @@ text-align: left;
 
 .graphImage2{
   position: relative;
-  top: 3cm;
+  top: 6cm;
 float: right;
   object-fit:cover;
   margin-right: 20px;
@@ -380,7 +432,7 @@ float: right;
 
 .personalPara{
 position: relative;
-top: 20px;
+top: 210px;
 
   text-align: center;
   color: white;
@@ -450,6 +502,24 @@ font-size: 20px;
   
  
   }
+  .head{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+   
+   
+  }
+  
+  .socials{
+    font-size: 20px;
+  
+    text-align: right;
+  }
+
+  .navbar{
+    border-bottom: 3px solid rgb(255, 255, 255);
+   
+    
+  }
   .navbar li{
 
 
@@ -457,6 +527,7 @@ font-size: 20px;
     font-weight: bold;
     padding: 10px;
     font-size: 20px;
+    font-weight: bold;
 
   
     font-family: 'Annie Use Your Telescope', cursive;
@@ -465,7 +536,7 @@ font-size: 20px;
   
   .bodyWelcome h1{
     color: white;
-   
+   font-weight: bold;
     position: relative;
     font-family: 'Annie Use Your Telescope', cursive;
     top: 200px;
@@ -481,7 +552,7 @@ font-size: 20px;
 
 
     height: 1400px;
-    border-bottom: 9px white solid;
+    border-bottom: 3px white solid;
   }
   .bodyAbout h1{
     font-family: 'Annie Use Your Telescope', cursive;
@@ -489,11 +560,12 @@ font-size: 20px;
     color: white;
     text-decoration: underline;
     text-align: center;
+    font-weight: bold;
   
   }
   .bodyAbout p{
     font-family: 'Annie Use Your Telescope', cursive;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     margin-left: 10px;
     margin-right: 10px;
@@ -518,6 +590,7 @@ font-size: 20px;
     font-size: 50px;
     color: white;
     text-decoration: underline;
+    font-weight: bold;
    
   }
   .certs h1{
@@ -525,16 +598,51 @@ font-size: 20px;
     font-size: 50px;
     color: white;
     text-decoration: underline;
+    font-weight: bold;
     
   }
   .main2{
-    background-image: url(../public/images/back.svg);
+    background-image: url(../public/images/back2.svg);
     height:1800px;
     border-radius: 2cm 0cm 2cm 0cm;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
   }
+
+  .main3{
+    background-image: url(../public/images/back2.svg);
+    height:1800px;
+    border-radius: 2cm 0cm 2cm 0cm;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  .graphPara{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    color: white;
   
+    font-size: 20px;
+    font-family: 'Annie Use Your Telescope', cursive;
+  }
+  .personalPara{
+    position: relative;
+    top: 20px;
+    
+      text-align: center;
+      color: white;
+      font-size: 20px;
+      font-family: 'Annie Use Your Telescope', cursive;
+    }
+    .navL a{
+      padding: 40px;
+
+      
+     
+     
+     
+     }
+    
 }
 
 

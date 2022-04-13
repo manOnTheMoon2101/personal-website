@@ -12,12 +12,13 @@ import logo12 from '../../public/images/blank.png';
 import Image from 'next/image';
 
 
-import {FaPython} from 'react-icons/fa';
-import {FaReact} from 'react-icons/fa';
-import {SiJavascript} from 'react-icons/si';
-import {AiFillHtml5} from 'react-icons/ai';
-import {DiCss3} from 'react-icons/di';
 
+import logo20 from '../../public/images/pythonS.png';
+import logo21 from '../../public/images/reactS.png';
+import logo22 from '../../public/images/comptS.png';
+import logo23 from '../../public/images/javaS.png';
+import logo24 from '../../public/images/htmlS.png';
+import logo25 from '../../public/images/cssS.png';
 
 
 export default function Comptia(){
@@ -38,7 +39,7 @@ export default function Comptia(){
 <li><Link href='/'>Home🏠</Link></li>
 
 <li><Link href='/projects'>Projects📁</Link></li>
-<li className={styles.active}><Link href='/certificates'>Online Certificates📃</Link></li>
+<li className={styles.active}><Link href='/skills'>Skills📚</Link></li>
 
 </ul>
 
@@ -46,12 +47,18 @@ export default function Comptia(){
 
 <div className={styles.navL}>
     <ul>
-    <li><Link href='/certificates/python'><a>Python<FaPython/></a></Link></li>
-        <li><Link href='/certificates/react'><a>React<FaReact/></a></Link></li>
-        <li  className={styles.active}><Link href='/certificates/comptia'><a>CompTIA</a></Link></li>
-        <li ><Link href='/certificates/javascript'><a>JavaScript<SiJavascript/></a></Link></li>
-        <li><Link href='/certificates/html'><a>HTML<AiFillHtml5/></a></Link></li>
-        <li><Link href='/certificates/css'><a>CSS<DiCss3/></a></Link></li>
+<a><Link href='/skills/python'><Image src={logo20} width='100px' height='100px'></Image></Link></a>
+
+<a><Link href='/skills/react'><Image src={logo21} width='100px' height='100px'></Image></Link></a>
+
+<a><Link href='/skills/comptia'><Image src={logo22} width='100px' height='100px'></Image></Link></a>
+
+<a><Link href='/skills/javascript'><Image src={logo23} width='100px' height='100px'></Image></Link></a>
+
+<a><Link href='/skills/html'><Image src={logo24} width='100px' height='100px'></Image></Link></a>
+
+<a><Link href='/skills/css'><Image src={logo25} width='100px' height='100px'></Image></Link></a>
+    
     </ul>
 </div>
 

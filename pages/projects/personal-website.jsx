@@ -31,7 +31,7 @@ export default function Personal(){
 <li><Link href='/'>Home🏠</Link></li>
 
 <li className={styles.active}><Link href='/projects'>Projects📁</Link></li>
-<li><Link href='/certificates'>Online Certificates📃</Link></li>
+<li><Link href='/skills'>Skills📚</Link></li>
 
 </ul>
 
@@ -39,14 +39,14 @@ export default function Personal(){
 </div>
 
 
-<div className={styles.navL}>
+<div className={styles.navL2}>
     <ul>
-        <li className={styles.active}><Link href='/projects/personal-website'><a>Personal-Website(NextJS)</a></Link></li>
+        <li className={styles.active}><Link href='/projects/personal-website'><a className={styles.proA}>Personal-Website(NextJS)</a></Link></li>
 
 
 
         
-        <li><Link href='/projects/nutrient-graph'><a>Nutrients Graph(Python)<FaPython/></a></Link></li>
+        <li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(Python)<FaPython/></a></Link></li>
     </ul>
 </div>
 

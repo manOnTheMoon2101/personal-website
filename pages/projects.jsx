@@ -30,7 +30,7 @@ export default function Projects(){
 <li><Link href='/'>Home🏠</Link></li>
 
 <li className={styles.active}><Link href='/projects'>Projects📁</Link></li>
-<li><Link href='/certificates'>Online Certificates📃</Link></li>
+<li><Link href='/skills'>Skills📚</Link></li>
 
 </ul>
 
@@ -38,7 +38,7 @@ export default function Projects(){
 </div>
 
 
-<motion.div className={styles.navL}
+<motion.div className={styles.navL2}
 
 initial='start'
 animate='animate'
@@ -80,12 +80,12 @@ variants={{
 
 
     <ul>
-        <li><Link href='/projects/personal-website'><a>Personal-Website(NextJS)<FaReact/></a></Link></li>
+        <li><Link href='/projects/personal-website'><a className={styles.proA}>Personal-Website(NextJS)<FaReact/></a></Link></li>
 
 
 
         
-        <li><Link href='/projects/nutrient-graph'><a>Nutrients Graph(Python)<FaPython/></a></Link></li>
+        <li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(Python)<FaPython/></a></Link></li>
     </ul>
 
 

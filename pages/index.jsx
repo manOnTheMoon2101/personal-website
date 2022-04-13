@@ -18,7 +18,6 @@ import logo7 from '../public/images/css.jpg'
 
 
 
-import { useState } from 'react';
 
 import Image from 'next/image';
 import { Fade } from "react-slideshow-image";
@@ -46,7 +45,7 @@ export default function Home() {
 <li className={styles.active}><Link href='/'>Home🏠</Link></li>
 
 <li><Link href='/projects'>Projects📁</Link></li>
-<li><Link href='/certificates'>Online Certificates📃</Link></li>
+<li><Link href='/skills'>Skills📚</Link></li>
 
 </ul>
 
@@ -152,19 +151,19 @@ of all time,Ye West.
 <div class={styles.container}>
 <div className={styles.imageM}>
     
-    <Link href='/projects'>
+    <Link href='/skills'>
         <Image src={logo4}  width='500px' height='400px'/>
         </Link>
         </div>
   
         <div className={styles.imageM}>
-    <Link href='/projects'>
+    <Link href='/skills'>
         <Image src={logo5}  width='500px' height='400px'/>
         </Link>
         </div>
   
         <div className={styles.imageM}>
-    <Link href='/projects'>
+    <Link href='/skills'>
         <Image src={logo6}  width='500px' height='400px'/>
         </Link>
   
@@ -181,7 +180,7 @@ of all time,Ye West.
 
 <div className={styles.certs}>
 
-<h1>Checkout my certificates📃</h1>
+<h1>Checkout my Skills📚</h1>
 
 
 <div class={styles.container}>
