@@ -69,7 +69,7 @@ export default function Javascript(){
 <div className={styles.imageM}>
     
   
-        <Image src={logo11}  width='500px' height='400px' alt='Javascript'/>
+        <Image src={logo11}  width='400px' height='300px' alt='Javascript'/>
   
         </div>
   

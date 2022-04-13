@@ -69,7 +69,7 @@ export default function Html(){
 <div class={styles.container}>
 <div className={styles.imageM}>
 
-        <Image src={logo5}  width='500px' height='400px' alt='Html'/>
+        <Image src={logo5}  width='400px' height='300px' alt='Html'/>
    
         </div>
   

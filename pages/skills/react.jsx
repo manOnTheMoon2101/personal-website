@@ -69,7 +69,7 @@ export default function React(){
 <div className={styles.imageM}>
     
  
-        <Image src={logo12}  width='500px' height='400px' alt='Full React'/>
+        <Image src={logo12}  width='400px' height='300px' alt='Full React'/>
       
         <p>React - The Complete Guide (incl Hooks, React Router, Redux)
 </p>

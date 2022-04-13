@@ -616,9 +616,45 @@ font-size: 20px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
   }
+  .navL{
+    text-align: center;
+    position: relative;
+    top: 5cm;
+  
+  
+  }
+  .navL2{
+    text-align: center;
+    position: relative;
+    top: 5cm;
+    
+  
+  
+  
+  }
+  .navL2 li{
+
+
+    list-style: none;
+    padding: 30px;
+   
+   }
+
+   .navL a{
+    position: relative;
+    padding: 40px;
+ 
+ 
+  
+  
+   
+  
+  
+  
+  }
   .graphPara{
     position: relative;
-    top: 20px;
+    top: 220px;
     text-align: center;
     color: white;
   
@@ -627,7 +663,7 @@ font-size: 20px;
   }
   .personalPara{
     position: relative;
-    top: 20px;
+    top: 220px;
     
       text-align: center;
       color: white;

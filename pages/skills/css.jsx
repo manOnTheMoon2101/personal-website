@@ -66,7 +66,7 @@ export default function Css(){
 <div class={styles.container}>
 <div className={styles.imageM}>
 
-        <Image src={logo6}  width='500px' height='400px' alt='Css'/>
+        <Image src={logo6}  width='400px' height='300px' alt='Css'/>
     
         </div>
   
