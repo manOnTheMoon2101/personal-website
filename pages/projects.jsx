@@ -82,8 +82,10 @@ variants={{
     <ul>
         <li><Link href='/projects/personal-website'><a className={styles.proA}>Personal-Website(NextJS)<FaReact/></a></Link></li>
 
+        <li><Link href='/projects/weather(api)'><a className={styles.proA}>Weather API(NextJS)<FaReact/></a></Link></li>
 
 
+        <li><Link href='/projects/moon_designs'><a className={styles.proA}>FreeLance Website(NextJS)<FaReact/></a></Link></li>
         
         <li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(Python)<FaPython/></a></Link></li>
     </ul>

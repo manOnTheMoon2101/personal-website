@@ -85,7 +85,7 @@ variants={{
 
 >
     <ul>
-<a><Link href='/skills/python'><Image src={logo20} width='100px' height='100px'></Image></Link></a>
+<a><Link href='/skills/python'><Image  src={logo20} width='100px' height='100px'></Image></Link></a>
 
 <a><Link href='/skills/react'><Image src={logo21} width='100px' height='100px'></Image></Link></a>
 
