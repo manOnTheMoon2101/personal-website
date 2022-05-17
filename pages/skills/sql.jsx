@@ -21,6 +21,9 @@ import logo23 from '../../public/images/javaS.png';
 import logo24 from '../../public/images/htmlS.png';
 import logo25 from '../../public/images/cssS.png';
 import logo26 from '../../public/images/sql.png';
+import logo27 from '../../public/images/sqlS.png';
+
+
 
 export default function Sql(){
 
@@ -70,11 +73,11 @@ export default function Sql(){
 <div className={styles.imageM}>
     
  
-        <Image src={logo12}  width='400px' height='300px' alt='Full React'/>
+        <Image src={logo27}  width='400px' height='300px' alt='Full React'/>
       
         <p>SQL
 </p>
-<span>Still Studying...</span>
+
         </div>
   
       
