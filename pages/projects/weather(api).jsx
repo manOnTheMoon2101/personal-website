@@ -7,6 +7,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {FaPython} from 'react-icons/fa';
 import {FaReact} from 'react-icons/fa';
+import {TiWeatherCloudy} from 'react-icons/ti';
+import {AiOutlineGoogle} from 'react-icons/ai';
+import {SiNextdotjs} from 'react-icons/si';
 
 import logo10 from '../../public/images/code4.png'
 import logo9 from '../../public/images/code3.png'
@@ -42,12 +45,14 @@ export default function Api(){
 
 <div className={styles.navL2}>
     <ul>
-        <li><Link href='/projects/personal-website'><a className={styles.proA}>Personal-Website(NextJS)</a></Link></li>
+    <li><Link href='/projects/personal-website'><a className={styles.proA}>Personal-Website(<span className={styles.colorC}>NextJS</span>)<FaReact/><SiNextdotjs/></a></Link></li>
 
-        <li className={styles.active}><Link href='/projects/weather(api)'><a className={styles.proA}>Website API(NextJS)<FaReact/></a></Link></li>
-        <li><Link href='/projects/moon_designs'><a className={styles.proA}>FreeLance Website(NextJS)<FaReact/></a></Link></li>
-        
-        <li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(Python)<FaPython/></a></Link></li>
+<li><Link href='/projects/weather(api)'><a className={styles.proA}>Weather API(<span className={styles.colorC}>OpenWeather API/NextJS</span>)<FaReact/><TiWeatherCloudy/></a></Link></li>
+
+
+<li><Link href='/projects/moon_designs'><a className={styles.proA}>FreeLance Website(<span className={styles.colorC}>Google Analytics/NextJS</span>)<FaReact/><AiOutlineGoogle/></a></Link></li>
+
+<li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(<span className={styles.colorC}>Matplotlib/Python</span>)<FaPython/></a></Link></li>
     </ul>
 </div>
 

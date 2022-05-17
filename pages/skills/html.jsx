@@ -23,6 +23,7 @@ import logo23 from '../../public/images/javaS.png';
 import logo24 from '../../public/images/htmlS.png';
 import logo25 from '../../public/images/cssS.png';
 
+import logo26 from '../../public/images/sql.png';
 
 export default function Html(){
 
@@ -63,6 +64,7 @@ export default function Html(){
 
 <a><Link href='/skills/css'><Image src={logo25} width='100px' height='100px'></Image></Link></a>
 
+<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a> 
     </ul>
 </div>
 

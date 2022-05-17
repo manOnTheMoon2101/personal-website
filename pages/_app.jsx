@@ -13,11 +13,16 @@ import {AiOutlineWhatsApp} from 'react-icons/ai'
 import {AiOutlineDownload} from 'react-icons/ai';
 
 
+import DownloadLink from "react-download-link";
+import fileDownload from 'js-file-download';
+
 
 
 
 function MyApp({ Component, pageProps,router }) {
-  
+
+
+
   
 
 
@@ -65,7 +70,24 @@ function MyApp({ Component, pageProps,router }) {
   
       <div className={styles.head}>
 
+<div className={styles.nameH}>
+  <h2>
+  <span className={styles.colorA}>C</span>
+  <span className={styles.colorB}>l</span>
+  <span className={styles.colorC}>e</span>
+  <span className={styles.colorA}>v</span>
+  <span className={styles.colorC}>e</span>
 
+  <span  className={styles.colorB}>C</span>
+  <span  className={styles.colorC}>l</span>
+  <span  className={styles.colorA}>a</span>
+  <span  className={styles.colorB}>y</span>
+  <span  className={styles.colorC}>t</span>
+  <span  className={styles.colorA}>o</span>
+  <span  className={styles.colorB}>n</span>
+  
+  </h2>
+</div>
 
 <div className={styles.socials}>
 
@@ -93,7 +115,6 @@ function MyApp({ Component, pageProps,router }) {
 
 
 
-<h6>Copy & Paste</h6>
 </span>
 
 

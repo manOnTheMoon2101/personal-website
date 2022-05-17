@@ -24,6 +24,7 @@ import logo23 from '../../public/images/javaS.png';
 import logo24 from '../../public/images/htmlS.png';
 import logo25 from '../../public/images/cssS.png';
 
+import logo26 from '../../public/images/sql.png';
 
 
 export default function Python(){
@@ -52,6 +53,9 @@ export default function Python(){
 
 </div>
 
+
+
+
 <div className={styles.navL}>
     <ul>
 <a><Link href='/skills/python'><Image src={logo20} width='100px' height='100px'></Image></Link></a>
@@ -66,6 +70,7 @@ export default function Python(){
 
 <a><Link href='/skills/css'><Image src={logo25} width='100px' height='100px'></Image></Link></a>
 
+<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a> 
       
     </ul>
 </div>
@@ -93,6 +98,7 @@ export default function Python(){
         </div>
 
     </div>
+
 
 
 <div className={styles.pythonP}>

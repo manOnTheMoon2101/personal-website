@@ -1,6 +1,7 @@
 html,
 body {
 height: 30cm;
+
   padding: 0;
   
   margin: 0;
@@ -18,3 +19,6 @@ a {
   box-sizing: border-box;
 }
 
+:root{
+  background-color: rgb(254, 254, 213);
+}

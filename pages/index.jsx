@@ -112,7 +112,7 @@ variants={{
 <div className={styles.bodyAbout}>
 
 <div className={styles.aboutSection}>
-<h1>About Me💡</h1>
+<h1>About <span>Me</span>💡</h1>
 <p>My name is Cleve Clayton,born and raised in Wellington.
 <br/>
   From chewing batteries as a baby,to starting programming as a hobby<br/> during lockdown,I knew technology was my future!
@@ -146,7 +146,7 @@ of all time,Ye West.
 
 <div className={styles.projects}>
 
-<h1>Checkout my Projects📁</h1>
+<h1>Checkout my <span>Projects</span>📁</h1>
 
 <div class={styles.container}>
 <div className={styles.imageM}>
@@ -180,7 +180,7 @@ of all time,Ye West.
 
 <div className={styles.certs}>
 
-<h1>Checkout my Skills📚</h1>
+<h1>Checkout my  <span>Skills</span>📚</h1>
 
 
 <div class={styles.container}>
