@@ -23,7 +23,8 @@ import logo24 from '../../public/images/htmlS.png';
 import logo25 from '../../public/images/cssS.png';
 
 import logo26 from '../../public/images/sql.png';
-
+import logo27 from '../../public/images/ciscoS.png';
+import logo29 from '../../public/images/wiresharkS.png';
 
 export default function Javascript(){
 
@@ -63,7 +64,11 @@ export default function Javascript(){
 
 <a><Link href='/skills/css'><Image src={logo25} width='100px' height='100px'></Image></Link></a>
 
-<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a> 
+<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a>
+
+<a><Link href='/skills/cisco'><Image src={logo27} width='100px' height='100px'></Image></Link></a> 
+
+<a><Link href='/skills/wireshark'><Image src={logo29} width='100px' height='100px'></Image></Link></a> 
     </ul>
 </div>
 

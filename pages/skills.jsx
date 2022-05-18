@@ -18,6 +18,9 @@ import logo24 from '../public/images/htmlS.png';
 import logo25 from '../public/images/cssS.png';
 
 import logo26 from '../public/images/sql.png';
+import logo27 from '../public/images/ciscoS.png';
+import logo28 from '../public/images/wiresharkS.png';
+
 
 
 
@@ -99,7 +102,13 @@ variants={{
 
 <a><Link href='/skills/css'><Image src={logo25} width='100px' height='100px'></Image></Link></a>
 
-<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a> 
+<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a>
+
+
+<a><Link href='/skills/cisco'><Image src={logo27} width='100px' height='100px'></Image></Link></a> 
+
+
+<a><Link href='/skills/wireshark'><Image src={logo28} width='100px' height='100px'></Image></Link></a> 
 
     </ul>
 </motion.div>

@@ -16,7 +16,7 @@ import {SiNextdotjs} from 'react-icons/si';
 
 import logo8 from '../../public/images/graph.png'
 import logo9 from '../../public/images/python.png'
-
+import logo10 from '../../public/images/codeSql.png'
 
 export default function Graph(){
 
@@ -82,7 +82,7 @@ The Green Line Represents the Goal which I want to consume per day.<br/>(I could
 
 <div class={styles.container2}>
 
-        <Image src={logo9}  width='500px' height='400px' alt='Python Code'/>
+        <Image src={logo10}  width='500px' height='500px' alt='Python Code'/>
    
         </div>
 

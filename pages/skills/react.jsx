@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 
 
-import logo12 from '../../public/images/blank.png'
+
 import Image from 'next/image';
 
 
@@ -22,7 +22,9 @@ import logo24 from '../../public/images/htmlS.png';
 import logo25 from '../../public/images/cssS.png';
 
 import logo26 from '../../public/images/sql.png';
-
+import logo27 from '../../public/images/ciscoS.png';
+import logo28 from '../../public/images/react.jpg';
+import logo29 from '../../public/images/wiresharkS.png';
 
 export default function React(){
 
@@ -64,7 +66,11 @@ export default function React(){
 
 <a><Link href='/skills/css'><Image src={logo25} width='100px' height='100px'></Image></Link></a>
 
-<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a>   
+<a><Link href='/skills/sql'><Image src={logo26} width='100px' height='100px'></Image></Link></a> 
+
+<a><Link href='/skills/cisco'><Image src={logo27} width='100px' height='100px'></Image></Link></a> 
+
+<a><Link href='/skills/wireshark'><Image src={logo29} width='100px' height='100px'></Image></Link></a> 
     </ul>
 </div>
 
@@ -72,11 +78,11 @@ export default function React(){
 <div className={styles.imageM}>
     
  
-        <Image src={logo12}  width='400px' height='300px' alt='Full React'/>
+        <Image src={logo28}  width='400px' height='300px' alt='Full React'/>
       
         <p>React - The Complete Guide (incl Hooks, React Router, Redux)
 </p>
-<span>Still Studying...</span>
+
         </div>
   
       

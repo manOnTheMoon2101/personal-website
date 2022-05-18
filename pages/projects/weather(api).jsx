@@ -88,7 +88,7 @@ Working with api's can be difficult,but at the end it all worked out.
 
 <div class={styles.container2}>
 
-        <Image src={logo10}  width='500px' height='400px' alt='Home Screen'/>
+        <Image src={logo10}  width='500px' height='500px' alt='Home Screen'/>
 
         </div>
 
