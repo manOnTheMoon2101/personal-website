@@ -43,7 +43,7 @@ export default function Skills(){
 <li><Link href='/'>Home🏠</Link></li>
 
 <li><Link href='/projects'>Projects📁</Link></li>
-<li className={styles.active}><Link href='/skills'>Skills📚</Link></li>
+<li><Link href='/skills'>Programming Skills💻</Link></li>
 
 </ul>
 
@@ -109,6 +109,7 @@ variants={{
 
 
 <a><Link href='/skills/wireshark'><Image src={logo28} width='100px' height='100px'></Image></Link></a> 
+
 
     </ul>
 </motion.div>

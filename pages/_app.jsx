@@ -11,7 +11,7 @@ import {AiOutlineInstagram} from 'react-icons/ai';
 import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 import {AiOutlineDownload} from 'react-icons/ai';
-
+import {AiFillLinkedin} from 'react-icons/ai';
 
 import DownloadLink from "react-download-link";
 import fileDownload from 'js-file-download';
@@ -93,13 +93,13 @@ function MyApp({ Component, pageProps,router }) {
 
 <a  className={styles.insta} href='https://www.instagram.com/man_on_the_moon2101/' title='Instagram' target="_blank"><AiOutlineInstagram/></a>
 <a  className={styles.git} href='https://github.com/manOnTheMoon2101' title='GitHub' target="_blank"><AiFillGithub/></a>
-<a className={styles.whats} href="https://wa.me/%2B27746957353" title='WhatsApp' target="_blank"><AiOutlineWhatsApp/></a>
-
+<a  className={styles.whats} href="https://wa.me/%2B27746957353" title='WhatsApp' target="_blank"><AiOutlineWhatsApp/></a>
+<a  className={styles.linked} href="https://www.linkedin.com/in/cleve-clayton/"  title='LinkedIn' target="_blank"><AiFillLinkedin/></a>
 <span className={styles.copy}>
 
 <CopyToClipboard text="officer_tenpenny69#2369">
   
-<button className={styles.disc}><BsDiscord/></button>
+<button className={styles.disc} title="Copied!"><BsDiscord/></button>
   
 </CopyToClipboard>
 
@@ -109,7 +109,7 @@ function MyApp({ Component, pageProps,router }) {
 
 <CopyToClipboard text="clevejohnclayton.2101@gmail.com">
   
-  <button className={styles.email}><AiOutlineMail/></button>
+  <button className={styles.email} title="Copied!"><AiOutlineMail/></button>
   
 </CopyToClipboard>
 

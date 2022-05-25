@@ -4,15 +4,15 @@ import { motion } from 'framer-motion';
 
 import 'bootstrap/dist/css/bootstrap.css';
 
-import logo1 from '../public/images/advance.png';
-import logo2 from '../public/images/network.jpg';
+import logo28 from '../public/images/react.jpg';
+
 
 
 import logo4 from '../public/images/graph.png';
 import logo5 from '../public/images/code.png';
 import logo6 from '../public/images/code3.png';
 
-
+import logo29 from '../public/images/cisco.png';
 import logo7 from '../public/images/css.jpg'
 
 
@@ -45,7 +45,7 @@ export default function Home() {
 <li className={styles.active}><Link href='/'>Home🏠</Link></li>
 
 <li><Link href='/projects'>Projects📁</Link></li>
-<li><Link href='/skills'>Skills📚</Link></li>
+<li><Link href='/skills'>Programming Skills💻</Link></li>
 
 </ul>
 
@@ -188,13 +188,13 @@ of all time,Ye West.
 <div className={styles.imageM}>
     
   <Link href='/certificates'>
-      <Image src={logo1}  width='500px' height='400px' alt='Python Intermediate'/>
+      <Image src={logo29}  width='500px' height='400px' alt='Python Intermediate'/>
       </Link>
       </div>
 
       <div className={styles.imageM}>
   <Link href='/certificates'>
-      <Image src={logo2}  width='500px' height='400px' alt='Python3 Networking'/>
+      <Image src={logo28}  width='500px' height='400px' alt='Python3 Networking'/>
       </Link>
       </div>
 

@@ -1,7 +1,12 @@
 
+.rick{
+  text-align: center;
+}
 
-
-
+.roll p{
+  font-size: 50px;
+  font-weight: bold;
+}
 /*socials*/
 
 
@@ -52,7 +57,7 @@ height: 100px;
   padding: 10px;
 }
 .insta:hover{
-  color: rgb(233, 42, 74);
+  color: rgb(194,49,136);
   
 }
 
@@ -63,7 +68,18 @@ height: 100px;
   padding: 10px;
 }
 .git:hover{
-  color: rgb(13, 50, 218);
+  color: rgb(0, 0, 0);
+  
+}
+
+.linked{
+  color: grey;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+}
+.linked:hover{
+  color: rgb(10,102,194);
   
 }
 .whats{
@@ -83,7 +99,7 @@ height: 100px;
   padding: 10px;
 }
 .disc:hover{
-  color: rgb(92, 13, 218);
+  color: rgb(85,98,234);
   
 }
 .email{
@@ -696,7 +712,7 @@ margin-right: 10px;
 
   .main3{
     background-image: url(../public/images/back2.svg);
-    height:1800px;
+    height:2200px;
   
     border-top: 2px solid rgb(53, 208, 186);
     border-bottom: 2px solid rgb(53, 208, 186);

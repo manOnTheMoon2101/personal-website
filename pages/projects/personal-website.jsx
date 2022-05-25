@@ -10,7 +10,7 @@ import {FaReact} from 'react-icons/fa';
 import {TiWeatherCloudy} from 'react-icons/ti';
 import {AiOutlineGoogle} from 'react-icons/ai';
 import {SiNextdotjs} from 'react-icons/si';
-
+import {SiMysql} from 'react-icons/si';
 
 import logo10 from '../../public/images/code.png'
 import logo9 from '../../public/images/code2.png'
@@ -36,8 +36,7 @@ export default function Personal(){
 <li><Link href='/'>Home🏠</Link></li>
 
 <li className={styles.active}><Link href='/projects'>Projects📁</Link></li>
-<li><Link href='/skills'>Skills📚</Link></li>
-
+<li><Link href='/skills'>Programming Skills💻</Link></li>
 </ul>
 
 
@@ -53,7 +52,9 @@ export default function Personal(){
 
 <li><Link href='/projects/moon_designs'><a className={styles.proA}>FreeLance Website(<span className={styles.colorC}>Google Analytics/NextJS</span>)<FaReact/><AiOutlineGoogle/></a></Link></li>
 
-<li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(<span className={styles.colorC}>Matplotlib/Python</span>)<FaPython/></a></Link></li>
+<li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(<span className={styles.colorC}>MySQL/Matplotlib/Python</span>)<FaPython/><SiMysql/></a></Link></li>
+
+<li><a className={styles.proA}>To-Do App...(ReactNative)</a></li>
     </ul>
 </div>
 
