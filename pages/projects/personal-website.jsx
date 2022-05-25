@@ -52,7 +52,7 @@ export default function Personal(){
 
 <li><Link href='/projects/moon_designs'><a className={styles.proA}>FreeLance Website(<span className={styles.colorC}>Google Analytics/NextJS</span>)<FaReact/><AiOutlineGoogle/></a></Link></li>
 
-<li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(<span className={styles.colorC}>MySQL/Matplotlib/Python</span>)<FaPython/><SiMysql/></a></Link></li>
+<li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(<span className={styles.colorC}>MySQL/Python</span>)<FaPython/><SiMysql/></a></Link></li>
 
 <li><a className={styles.proA}>To-Do App...(ReactNative)</a></li>
     </ul>
