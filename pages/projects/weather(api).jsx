@@ -5,12 +5,12 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 import Link from 'next/link';
 import Image from 'next/image';
-import {FaPython} from 'react-icons/fa';
-import {FaReact} from 'react-icons/fa';
-import {TiWeatherCloudy} from 'react-icons/ti';
-import {AiOutlineGoogle} from 'react-icons/ai';
-import {SiNextdotjs} from 'react-icons/si';
-import {SiMysql} from 'react-icons/si';
+
+import {AiOutlineHome} from 'react-icons/ai';
+import {AiFillFolderOpen} from 'react-icons/ai';
+import {GrCloudComputer} from 'react-icons/gr';
+import { motion } from 'framer-motion';
+import {IoMdArrowDropdownCircle} from 'react-icons/io';
 import logo10 from '../../public/images/code4.png'
 import logo9 from '../../public/images/code3.png'
 
@@ -26,36 +26,83 @@ export default function Api(){
 <div className={styles.main2}>
 
 
-
-
 <div className={styles.navbar}>
 
 <ul>
 
-<li><Link href='/'>Home🏠</Link></li>
+<li className={styles.active}><a><Link href='/'>Home</Link><AiOutlineHome/></a></li>
 
-<li className={styles.active}><Link href='/projects'>Projects📁</Link></li>
-<li><Link href='/skills'>Programming Skills💻</Link></li>
+<li><a>Projects<AiFillFolderOpen/><IoMdArrowDropdownCircle/></a></li>
+
+
+<div className={styles.dropdownPList}>
+<a><Link href='/projects/personal-website'>Personal Website(NextJS)</Link></a>
+<br/>
+<a><Link href='/projects/weather(api)'>Weather API(NextJS)</Link></a>
+<br/>
+<a><Link href='/projects/nutrient-graph'>Nutrient Graph(MySQL/Python)</Link></a>
+<br/>
+<a><Link href='/projects/moon_designs'>FreeLance Website(Analytics/ReactJS)</Link></a>
+
+</div>
+
+
+<li><a>Programming Skills<GrCloudComputer/><IoMdArrowDropdownCircle/></a></li>
+
+<div className={styles.dropdownProList}>
+<a><Link href='/skills/web-dev'>Web Development</Link></a>
+<br/>
+<a><Link href='/skills/networking'>Networking</Link></a>
+<br/>
+<a><Link href='/skills/databases'>Databases</Link></a>
+
+
+
+</div>
 </ul>
 
 
 </div>
 
 
-<div className={styles.navL2}>
-    <ul>
-    <li><Link href='/projects/personal-website'><a className={styles.proA}>Personal-Website(<span className={styles.colorC}>NextJS</span>)<FaReact/><SiNextdotjs/></a></Link></li>
-
-<li><Link href='/projects/weather(api)'><a className={styles.proA}>Weather API(<span className={styles.colorC}>OpenWeather API/NextJS</span>)<FaReact/><TiWeatherCloudy/></a></Link></li>
+<motion.div
 
 
-<li><Link href='/projects/moon_designs'><a className={styles.proA}>FreeLance Website(<span className={styles.colorC}>Google Analytics/NextJS</span>)<FaReact/><AiOutlineGoogle/></a></Link></li>
+initial='start'
+animate='animate'
+exit='exit'
 
-<li><Link href='/projects/nutrient-graph'><a className={styles.proA}>Nutrients Graph(<span className={styles.colorC}>MySQL/Python</span>)<FaPython/><SiMysql/></a></Link></li>
+variants={{
+  start:{
+    scale:0,
+    opacity:0,
+    
+    
+    
+  },
 
-<li><a className={styles.proA}>To-Do App...(ReactNative)</a></li>
-    </ul>
-</div>
+  animate:{
+    scale:1,
+    opacity:1,
+    
+    transition:{
+      duration:1
+    }
+  
+  },
+
+  exit:{
+    scale:0,
+ 
+    transition:{
+      duration:.4
+    }
+    
+  }
+
+}}
+>
+
 
 
 <div className={styles.graphImage}>
@@ -85,7 +132,7 @@ Working with api's can be difficult,but at the end it all worked out.
 
 </div>
 
-<div className={styles.graphImage2}>
+<div className={styles.graphImage21}>
 
 <div class={styles.container2}>
 
@@ -94,6 +141,8 @@ Working with api's can be difficult,but at the end it all worked out.
         </div>
 
 </div>
+
+</motion.div>
 </div>
     
     

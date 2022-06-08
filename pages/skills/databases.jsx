@@ -1,33 +1,40 @@
 import styles from '../../styles/Home.module.css';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import { motion } from 'framer-motion';
+
+
 
 import Link from 'next/link';
-import Image from 'next/image';
 
 import {AiOutlineHome} from 'react-icons/ai';
 import {AiFillFolderOpen} from 'react-icons/ai';
 import {GrCloudComputer} from 'react-icons/gr';
 import {IoMdArrowDropdownCircle} from 'react-icons/io';
+import { motion } from 'framer-motion';
 
-import logo10 from '../../public/images/code.png'
-import logo9 from '../../public/images/code2.png'
+import logo1 from '../../public/images/sqlS.png';
+import logo2 from '../../public/images/advance.png';
+import logo3 from '../../public/images/beginner.png';
+
+
+import Image from 'next/image';
 
 
 
 
-export default function Personal(){
+
+export default function Data(){
 
     return <>
     
     
       
-<div className={styles.main2}>
+  <div className={styles.main3}>
 
 
 
-<div className={styles.navbar}>
+
+  <div className={styles.navbar}>
 
 <ul>
 
@@ -65,7 +72,9 @@ export default function Personal(){
 
 </div>
 
-<motion.div 
+
+<motion.div
+
 
 initial='start'
 animate='animate'
@@ -102,40 +111,42 @@ variants={{
 }}
 >
 
-<div className={styles.graphImage}>
 
-<div class={styles.container2}>
+<div class={styles.container}>
+<div className={styles.imageM}>
+    
+    
+        <Image src={logo1}  width='500px' height='400px' alt='Intermediate Python'/>
+        
+        </div>
+  
+        <div className={styles.imageM}>
+    
+        <Image src={logo2}  width='500px' height='400px' alt='Python Networking'/>
+        
+        </div>
+  
+        <div className={styles.imageM}>
 
-        <Image src={logo9}  width='500px' height='400px' alt='JSX Code'/>
 
+        <Image src={logo3}  width='500px' height='400px' alt='Python for Beginners'/>
+        
+  
         </div>
 
+
+   
+
+    </div>
+
+
+
+<div className={styles.pythonP}>
+    <p>
+       Playing with Data is fun and there's so much data you can extract.I like to mix MySQL with Python,to display graphs or more quick accesibility.
+
+    </p>
 </div>
-
-
-<div className={styles.personalPara}>
-<p>
-I've build by website using the NextJS Framework.
-I feel comfortable using React to make<br/> websites because of it's huge community and structured work layout.
-I didn't go crazy on this website,<br/>but in the future I might add new animations to it,especially from Framer Motion.
-<br/>
-<a href='https://github.com/manOnTheMoon2101/personal-website' target="_blank" rel="noopener noreferrer">Github Code:</a>
-</p>
-
-
-
-</div>
-
-<div className={styles.graphImage2}>
-
-<div class={styles.container2}>
-
-        <Image src={logo10}  width='500px' height='400px' alt='Home Screen'/>
-
-        </div>
-
-</div>
-
 </motion.div>
 </div>
     

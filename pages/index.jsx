@@ -15,10 +15,12 @@ import logo6 from '../public/images/code3.png';
 import logo29 from '../public/images/cisco.png';
 import logo7 from '../public/images/css.jpg'
 
+import logo30 from '../public/images/star.svg'
 
-
-
-
+import {AiOutlineHome} from 'react-icons/ai';
+import {AiFillFolderOpen} from 'react-icons/ai';
+import {GrCloudComputer} from 'react-icons/gr';
+import {IoMdArrowDropdownCircle} from 'react-icons/io';
 import Image from 'next/image';
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -38,19 +40,44 @@ export default function Home() {
 
 
 
-<div className={styles.navbar}>
+  <div className={styles.navbar}>
 
 <ul>
 
-<li className={styles.active}><Link href='/'>Home🏠</Link></li>
+<li className={styles.active}><a><Link href='/'>Home</Link><AiOutlineHome/></a></li>
 
-<li><Link href='/projects'>Projects📁</Link></li>
-<li><Link href='/skills'>Programming Skills💻</Link></li>
+<li><a>Projects<AiFillFolderOpen/><IoMdArrowDropdownCircle/></a></li>
 
+
+<div className={styles.dropdownPList}>
+<a><Link href='/projects/personal-website'>Personal Website(NextJS)</Link></a>
+<br/>
+<a><Link href='/projects/weather(api)'>Weather API(NextJS)</Link></a>
+<br/>
+<a><Link href='/projects/nutrient-graph'>Nutrient Graph(MySQL/Python)</Link></a>
+<br/>
+<a><Link href='/projects/moon_designs'>FreeLance Website(Analytics/ReactJS)</Link></a>
+
+</div>
+
+
+<li><a>Programming Skills<GrCloudComputer/><IoMdArrowDropdownCircle/></a></li>
+
+<div className={styles.dropdownProList}>
+<a><Link href='/skills/web-dev'>Web Development</Link></a>
+<br/>
+<a><Link href='/skills/networking'>Networking</Link></a>
+<br/>
+<a><Link href='/skills/databases'>Databases</Link></a>
+
+
+
+</div>
 </ul>
 
 
 </div>
+
 
 
   
@@ -96,13 +123,21 @@ variants={{
 >
 
 <h1>Hello there!
-  <br/>
-  My name's Cleve
+ 
+  
   <br/>
   <span className={styles.welcome}>Welcome</span> to my WebPage.
   
   😄
 </h1>
+
+<div className={styles.star}>
+  <Image  src={logo30} height='200px' width='200px'>
+
+  </Image>
+
+</div>
+
 </motion.div>
 
 
@@ -146,7 +181,7 @@ of all time,Ye West.
 
 <div className={styles.projects}>
 
-<h1>Checkout my <span>Projects</span>📁</h1>
+<h1>Checkout my <span>Projects</span><AiFillFolderOpen/></h1>
 
 <div class={styles.container}>
 <div className={styles.imageM}>
@@ -180,7 +215,7 @@ of all time,Ye West.
 
 <div className={styles.certs}>
 
-<h1>Checkout my  <span>Skills</span>📚</h1>
+<h1>Checkout my  <span>Skills</span><GrCloudComputer/></h1>
 
 
 <div class={styles.container}>

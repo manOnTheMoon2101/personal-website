@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-import Link from 'next/link'
+
 
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import { AnimatePresence,motion } from 'framer-motion';
@@ -10,11 +10,10 @@ import {BsDiscord} from 'react-icons/bs'
 import {AiOutlineInstagram} from 'react-icons/ai';
 import {AiFillGithub} from 'react-icons/ai'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
-import {AiOutlineDownload} from 'react-icons/ai';
+
 import {AiFillLinkedin} from 'react-icons/ai';
 
-import DownloadLink from "react-download-link";
-import fileDownload from 'js-file-download';
+
 
 
 
@@ -65,6 +64,9 @@ function MyApp({ Component, pageProps,router }) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
 <link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet"></link>
 
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet"></link>
 
       </Head>
   
