@@ -520,9 +520,9 @@ background-color: rgb(245, 245, 245);
   position: relative;
   top: 210px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   float: right;
-background-color: white;
+  background-color: rgb(39, 177, 190);
 
 border: 2px solid;
 border-radius: 20px;
@@ -768,6 +768,16 @@ width: 100%;
     padding: 20px;
    
   }
+
+  .dropdownPList a:hover{
+    color: rgb(39, 177, 190);
+      
+    }
+
+    .dropdownProList a:hover{
+      color: rgb(39, 177, 190);
+        
+      }
   .bodyWelcome{
     clear: both;
   }
@@ -809,11 +819,11 @@ width: 100%;
   
     margin-left: 10px;
     margin-right: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
      float: left;
     border: 2px solid;
-    background-color: white;
+    background-color: rgb(39, 177, 190);
   
   
   }
@@ -909,9 +919,9 @@ margin-right: 10px;
     position: relative;
     top: 220px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     float: right;
-  background-color: white;
+    background-color: rgb(39, 177, 190);
 
   border: 2px solid;
 border-radius: 20px;
