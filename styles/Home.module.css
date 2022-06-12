@@ -18,9 +18,9 @@ height: 100px;
 
 
 
-
  
 }
+
 
 
 .downloadLink a:hover{
@@ -127,6 +127,11 @@ height: 100px;
 .colorC{
   color: rgb(39, 177, 190) ;
 }
+.colorD{
+  color: rgb(250, 204, 46) ;
+  font-weight: bold;
+}
+
 
 
 /*body*/
@@ -180,9 +185,11 @@ width: 250px;
 }
 
 .dropdownPList{
+  
   display: none;
   background-color: rgb(236, 236, 236);
   border-radius: 10px;
+
 }
 
 .dropdownPList a{
@@ -289,9 +296,7 @@ top: 200px;
   margin-left: 10px;
 }
 
-.aboutSection span{
-  color: rgb(53, 208, 186);
-}
+
 
 
 .bodyAbout h1{
@@ -332,6 +337,7 @@ background-color: rgb(39, 177, 190);
 
 .slideShow span{
   color: rgb(39, 177, 190);
+  font-weight: bold;
 }
 
 .certs{
@@ -356,7 +362,7 @@ background-color: rgb(39, 177, 190);
 
 .certs h1{
   font-family: 'Annie Use Your Telescope', cursive;
-  font-size: 70px;
+  font-size: 50px;
   color: rgb(0, 0, 0);
  
   
@@ -843,7 +849,7 @@ width: 100%;
     font-family: 'Annie Use Your Telescope', cursive;
     font-size: 50px;
     color: rgb(0, 0, 0);
-    text-decoration: underline;
+    
     font-weight: bold;
 
 

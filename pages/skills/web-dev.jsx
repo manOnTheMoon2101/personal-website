@@ -149,7 +149,7 @@ variants={{
 <div className={styles.pythonP}>
     <p>When it comes to frond-end websites,ReactJS is my number one library to go to.
     I also use the NextJS Framework on top for more performance.I'm still learning the way of the back-end,
-    with technologies like Djnago or plain NodeJS.
+    with technologies like Django or plain NodeJS.
     </p>
 </div>
 

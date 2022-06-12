@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import logo28 from '../public/images/react.jpg';
 
 
-
 import logo4 from '../public/images/graph.png';
 import logo5 from '../public/images/code.png';
 import logo6 from '../public/images/code3.png';
@@ -29,8 +28,6 @@ import Link from 'next/link';
 
 
 export default function Home() {
-
-
 
  
   return <>
@@ -122,16 +119,21 @@ variants={{
 
 >
 
-<h1>Hello there!
+<h1><span className={styles.colorD}>Hello</span> there!
+ 
+
  
   
+
+
   <br/>
-  <span className={styles.welcome}>Welcome</span> to my WebPage.
+  Have <span className={styles.welcome}> Fun</span> scrolling around<br/> my webpage !
   
   😄
 </h1>
 
 <div className={styles.star}>
+
   <Image  src={logo30} height='200px' width='200px'>
 
   </Image>
@@ -147,30 +149,40 @@ variants={{
 <div className={styles.bodyAbout}>
 
 <div className={styles.aboutSection}>
-<h1>About <span>Me</span>💡</h1>
-<p>My name is Cleve Clayton,born and raised in Wellington.
+<h1>About <span className={styles.colorA}>Me</span>💡</h1>
+<p>
+"Name one genius that aint crazy."-Kanye West
 <br/>
-  From chewing batteries as a baby,to starting programming as a hobby<br/> during lockdown,I knew technology was my future!
+I've gained my Superpowers through chewing batteries as a baby,now I'm a full stack programmer...
+ 
 
 </p>
 </div>
 
 <div className={styles.aboutSection}>
-  <p>
-  "Name one genius that aint crazy."<br/>
-A simple line from one of my favourite rappers/producers<br/>
-of all time,Ye West.
-  </p>
+
+<p>
+My name's Cleve Clayton&#91;<span className={styles.colorD}>Superheroe Name</span>&#93;<br/>I love programming genuinely!I do mostly more Frond-End developments.
+Other Hobbies include stock trading,sport player,nature lover and most importantly,GAMER!
+
+
+
+</p>
 </div>
 
 <div className={styles.aboutSection}>
-  <p>
- I believe to be succesfull in our world today,you have to stand
- out from the others,our leaders and tech billionares have already proved that.
- I'm inspired everyday by the likes of Elon Musk,he showed me that if a child has a dream,he/she can 
- make it a reality by simply working hard and believing in him/herself.
-  </p>
+
+<p>
+In a world with a lot of confusion,the goal is to stand out,where everyone chooses blue,why not go for red?
+<br/>
+Inspired by many good influencers including the likes of Elon Musk,which inspires me to chase my dreams
+and not to aim for the moon,but further...
+
+
+</p>
 </div>
+
+
 </div>
 
 

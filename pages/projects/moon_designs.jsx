@@ -121,7 +121,7 @@ variants={{
 
 <div className={styles.personalPara}>
 <p>
-I've build my own freelance business web page.<br/>
+I've build my own <a href='https://moondesigns2022.co.za/' target="_blank" rel="noopener noreferrer">freelance business</a> web page.<br/>
 I provide Web Designing services with various options.<br/>
 The Web Page is loaded with Google Analytics to see where my target audience is.
 
